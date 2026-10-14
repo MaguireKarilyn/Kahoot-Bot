@@ -1,7 +1,7 @@
 import blessed from "blessed";
 import Kahoot from "kahoot.js-latest";
 
-const MAX_BATCH_SIZE = 50000;
+const MAX_BATCH_SIZE = 10000;
 const DEFAULT_PARALLEL_JOINS = 35;
 const HEADER_COLOR = "magenta";
 const STATUS_STYLES = {
